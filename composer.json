@@ -1,0 +1,33 @@
+{
+    "name": "alevin/boxes",
+    "description": "Yii2 template with XDebug",
+    "type": "project",
+    "minimum-stability": "stable",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexey Lyovin",
+            "email": "ssaxalin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.50",
+        "yiisoft/yii2-bootstrap5": "~2.0.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer" : true
+        },
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
